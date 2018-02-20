@@ -1,0 +1,24 @@
+<div>
+<mat-sidenav-container >
+
+    <mat-sidenav #sidenav mode="push" opened="false"  style="width:35%; color:rgb(255, 0, 0);">
+     <div style="text-align: center;"> <br>
+      <i class="fa fa-home " style="font-size:70px;" routerLink="/" (click)="sidenav.toggle()"></i><br><br>
+      <div> 
+        <button mat-button  routerLink="/login" type="button" class="btn-block"  (click)="sidenav.toggle();">Login</button><br>
+        <button mat-button routerLink="/about" type="button" class="btn-block"  (click)="sidenav.toggle();">About</button>
+      </div>
+      </div>
+    </mat-sidenav>
+  
+    <mat-toolbar>
+      <i class="fa fa-bars" (click)="sidenav.toggle()"></i>
+        <span style="margin-left: 20px;">Vehicle Deletion Prep</span>
+    </mat-toolbar>
+  
+
+  <div style="width:100%;">
+  <img src="./assets/car.gif" width="100%">
+  </div>
+</mat-sidenav-container>
+</div>
