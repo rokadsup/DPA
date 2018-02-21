@@ -4,8 +4,7 @@
     "orientation" : "any",
     "scope": "/",
     "display":"standalone",
-    "short_name": "Del Prep App",
-    
+    "short_name": "Del Prep App", 
     "icons": [
         {
           "src": "icon_96.png",
