@@ -3,5 +3,12 @@
     "start_url" :"/",
     "orientation" : "any",
     "scope": "/",
-    "display":"standalone"
+    "display":"standalone",
+    "icons": [
+        {
+          "src": "launcher-icon-3x.png",
+          "sizes": "144x144",
+          "type": "image/png"
+        }
+    ]
 }
