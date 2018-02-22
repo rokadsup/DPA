@@ -22,8 +22,8 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatDialogModule} from '@angular/material/dialog';
-import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { ServiceWorkerModule } from "@angular/service-worker";
 
 
 
@@ -65,7 +65,6 @@ import { environment } from '../environments/environment';
     MatSnackBarModule,
     MatDialogModule,
     ServiceWorkerModule.register('/ngsw-worker.js', {enabled: environment.production})
-
   ],
   providers: [],
   bootstrap: [AppComponent]
