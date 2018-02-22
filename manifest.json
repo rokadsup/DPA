@@ -1,10 +1,10 @@
 {  
     "name" : "Deletion Prep App",
-    "start_url" :"/",
+    "start_url" :".",
     "orientation" : "any",
     "scope": "/",
     "display":"standalone",
-    "short_name": "Deletion Prep App", 
+    "short_name": "Del Prep App", 
     "icons": [
         {
           "src": "icons/icon_96",
